@@ -1,8 +1,9 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    /* Colocar as cores por variáveis */
+    --background: black;
+    --text: white;
   }
 
   * {
@@ -25,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
   // REM = 1rem = 16px
 
   body {
+    color: var(--text);
     background: var(--background);
     -webkit-font-smoothing: antialiased;
   }
