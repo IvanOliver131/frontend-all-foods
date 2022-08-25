@@ -4,10 +4,17 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 4rem;
+  height: 9rem;
   width: 100%;
-  background: black;
+  background: #483026;
+  color: #f3ede1;
   border-bottom: 1px solid orange;
+
+  img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+  }
 `;
 
 export const Navigation = styled.nav`
@@ -22,6 +29,6 @@ export const Navigation = styled.nav`
 
   a {
     text-decoration: none;
-    color: var(--text);
+    color: #f3ede1;
   }
 `;

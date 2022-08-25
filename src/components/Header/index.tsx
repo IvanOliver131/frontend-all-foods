@@ -1,16 +1,23 @@
 import { Container, Navigation } from "./styles";
+import LogoDRoy from "../../assets/LogoDRoy.png";
 
 export function Header() {
   return (
     <Container>
-      <h1>Logo</h1>
+      <img src={LogoDRoy} alt="logo-droy"></img>
       <Navigation>
         <ul>
           <li>
-            <a href="#">Comida</a>
+            <a href="#">Smash</a>
           </li>
           <li>
-            <a href="#">Bebida</a>
+            <a href="#">Smoked</a>
+          </li>
+          <li>
+            <a href="#">Sobremesas</a>
+          </li>
+          <li>
+            <a href="#">Bebidas</a>
           </li>
         </ul>
       </Navigation>
